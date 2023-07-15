@@ -6,7 +6,7 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "FiraCode Nerd Font:size=13";
-static int borderpx = 2;
+static int borderpx = 10;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -96,28 +96,28 @@ unsigned int tabspaces = 8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"#45475A",
-	"#F38BA8",
-	"#A6E3A1",
-	"#F9E2AF",
-	"#89B4FA",
-	"#F5C2E7",
-	"#94E2D5",
-	"#BAC2DE",
+	"#494D64",
+	"#ED8796",
+	"#A6DA95",
+	"#EED49F",
+	"#8AADF4",
+	"#F5BDE6",
+	"#8BD5CA",
+	"#B8C0E0",
 
 	/* 8 bright colors */
-	"#585B70",
-	"#F38BA8",
-	"#A6E3A1",
-	"#F9E2AF",
-	"#89B4FA",
-	"#F5C2E7",
-	"#94E2D5",
-	"#A6ADC8",
+	"#5B6078",
+	"#ED8796",
+	"#A6DA95",
+	"#EED49F",
+	"#8AADF4",
+	"#F5BDE6",
+	"#8BD5CA",
+	"#A5ADCB",
 
-[256] = "#CDD6F4", /* default foreground colour */
-[257] = "#1E1E2E", /* default background colour */
-[258] = "#F5E0DC", /*575268*/
+[256] = "#CAD3F5", /* default foreground colour */
+[257] = "#24273A", /* default background colour */
+[258] = "#F4DBD6", /*575268*/
 
 };
 
@@ -138,7 +138,7 @@ static unsigned int defaultrcs = 258;
  * 6: Bar ("|")
  * 7: Snowman ("☃")
  */
-static unsigned int cursorshape = 2;
+static unsigned int cursorshape = 6;
 
 /*
  * Default columns and rows numbers
