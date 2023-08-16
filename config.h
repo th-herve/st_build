@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "FiraCode Nerd Font:size=13";
-static int borderpx = 10;
+static char *font = "FiraCode Nerd Font:size=13:style=Medium";
+static int borderpx = 0;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -138,14 +138,14 @@ static unsigned int defaultrcs = 258;
  * 6: Bar ("|")
  * 7: Snowman ("☃")
  */
-static unsigned int cursorshape = 2;
+static unsigned int cursorshape = 6;
 
 /*
  * Default columns and rows numbers
  */
 
-static unsigned int cols = 92;
-static unsigned int rows = 36;
+static unsigned int cols = 80;
+static unsigned int rows = 24;
 
 /*
  * Default colour and shape of the mouse cursor
