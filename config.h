@@ -6,6 +6,9 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "FiraCode Nerd Font:size=13:style=Medium";
+int disablebold = 0;
+int disableitalic = 1;
+int disableroman = 0;
 static int borderpx = 10;
 
 /*
